@@ -29,12 +29,12 @@ function App() {
         <ProductList/>
         
         <br/>
-        <h2>But that not Share data between components</h2>
+        <h2>Not Share data between components, button example:</h2>
         <hr/>
         <MyButton/>
         <MyButton/>
 
-        <h2>Sharing data between components</h2>
+        <h2>Sharing data between components - button example:</h2>
         <hr/>
         <SharingDataBetweenButtonComponents count={count} onClick={setCounter}/>
         
